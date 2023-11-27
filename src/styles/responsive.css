@@ -1,0 +1,165 @@
+@media screen and (min-width:455px) {
+
+  .headline__content {
+    padding: 16px 16px;
+  }
+
+  .headline__title {
+    font-size: 28px;
+  }
+
+  .headline__description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .nav {
+    z-index: 10;
+    background-color: #fff;
+  
+    position: absolute;
+
+    -webkit-transform: translate(-400px, 0);
+    transform: translate(-400px, 0);
+
+    transition: transform 0.3s ease;
+  }
+
+  .nav .logo {
+    display: none;
+  }
+
+  .nav a {
+    color: 	#DAA520;
+  }
+
+  .open {
+    /* margin-top: 200px; */
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .nav__item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: left;
+  }
+
+  .nav__list {
+    display: block;
+  }
+
+  .container-review {
+    grid-template-columns: 1fr;
+  }
+
+  .form-review {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width:500px) {
+
+  #explore-restaurant,
+  #fav-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 16px;
+  }
+
+  .block_navbar_menu {
+    display: none;
+  }
+
+  .navbar__menu {
+    display: none;
+    padding: 6px;
+    width: 44px;
+  }
+}
+
+
+@media screen and (min-width:650px) {
+
+  #explore-restaurant,
+  #fav-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 16px;
+  }
+
+  .detail-menu,
+  .detail {
+    grid-template-columns: 1fr;
+
+  }
+
+  .headline__content {
+    margin: 0 auto;
+    max-width: 650px;
+  }
+
+  .post-item__content {
+    padding: 16px 32px 32px 32px;
+  }
+
+  .post-item__title {
+    font-size: 18px;
+  }
+
+  .post-item__description {
+    font-size: 14px;
+  }
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+  #explore-restaurant,
+  #fav-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 16px;
+  }
+
+  .detail-menu,
+  .detail {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+
+  .nav__list {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  #explore-restaurant,
+  #fav-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+  .hero {
+    min-height: 380px;
+    min-width: 1000px;
+
+  }
+
+  #explore-restaurant,
+  #fav-resto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

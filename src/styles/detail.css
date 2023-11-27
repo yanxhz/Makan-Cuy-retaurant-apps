@@ -1,0 +1,286 @@
+/* DETAIL */
+.detail {
+  display: grid;
+  grid-row-gap: 16px;
+  font-size: 1em;
+  margin-top: 1em;
+  color: black;
+}
+
+.detail-img {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 15px;
+  object-position: center;
+}
+
+.detail-name-address-rating {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.detail h3 {
+  font-size: 1.5em;
+  padding: 1em 0 0 0;
+  font-weight: bold;
+}
+
+.detail-desc {
+  text-align: justify;
+  color: black;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+
+.category {
+  padding: 0.3em 1em;
+  color: black;
+  background-color: #FF9C00;
+  margin-right: 2px;
+  border: 1px solid transparent;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.detail-menu {
+  display: grid;
+  grid-row-gap: 32px;
+  font-size: 1em;
+  margin-top: 1em;
+  color: black;
+}
+
+
+.detail-food {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-content: center;
+}
+
+.detail-food li {
+  padding: 0.5em 0;
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  border: 0.5px solid black;
+  border-width: 0 0 0.5px;
+}
+
+.detail-drink {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-content: center;
+}
+
+.detail-drink li {
+  padding: 0.5em 0;
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  border: 0.5px solid black;
+  border-width: 0 0 0.5px;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.detail-info li {
+  position: relative;
+  display: block;
+  padding: 0.6em;
+  color: black;
+  text-decoration: none;
+}
+
+.detail-rating .fa {
+  font-size: large;
+  padding: 0.3em 0.8em 0.3em 0;
+  color: yellow;
+}
+
+/* SUMMARY */
+summary {
+  border: 1px solid transparent;
+  border-radius: 10px 10px 10px 10px;
+  padding-left: 12px;
+  cursor: pointer;
+  margin: 12px;
+  font-size: 32px;
+}
+
+summary:hover {
+  background-color: #FF9C00;
+}
+
+/* DETAIL REVIEW */
+
+.container-review {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.detail-review {
+  max-width: 100%;
+  font-size: 1em;
+  text-align: center;
+}
+
+.detail-review-item {
+  color: black;
+  border: 1px solid #FF9C00;
+  border-radius: 10px 10px 10px 10px;
+  background-color: transparent;
+  margin-bottom: 1.5em;
+  padding: 1em 1em;
+}
+
+.detail-review-item:last-child {
+  margin-bottom: 0;
+}
+
+.review-header {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.review-name {
+  font-weight: bold;
+  color: #FF9C00;
+  /* display: flex; */
+}
+
+.review-date {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+.review-body {
+  padding: 1em;
+  text-align: left;
+}
+
+.restaurant__food-item, .restaurant__drink-item {
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 10px;
+  color: #fff;
+  background-color: #ADD8E6;
+}
+
+/* FORM */
+form {
+  /* margin: 2em 0; */
+  min-height: 46px;
+
+  padding: 1.5em;
+  border: 2px solid #FF9C00;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 46px;
+  padding: 0.3em;
+  font-size: 1em;
+  font-weight: normal;
+  color: black;
+  background-color: #fff;
+  appearance: none;
+  outline: none;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #FF9C00;
+}
+
+.form-control:hover {
+  border-bottom: 1px solid black;
+}
+
+.form-label {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: large;
+  color: black;
+}
+
+.mb-3 {
+  margin-bottom: 1.3em;
+  margin-top: 0.5em;
+}
+
+/* Submit Button */
+.submit-btn {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+}
+
+
+
+/* LIKE BUTOON */
+.like {
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 16px;
+  z-index: 100;
+}
+
+.like:hover {
+  background-color: pink;
+}
